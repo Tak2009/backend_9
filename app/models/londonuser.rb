@@ -1,0 +1,2 @@
+class Londonuser < ApplicationRecord
+end
