@@ -23,6 +23,11 @@ all_users.each do |user| User.create(
 )
 end
 
+# for test. dummy data
+u1001 = User.create(:user_id => 1001, :first_name => "Huddersfield", :last_name => "Station", :latitude => 53.648557, :longitude => -1.784449) # 163.48 mi and hence fail
+u1002 = User.create(:user_id => 1002, :first_name => "Great Portland", :last_name => "Station", :latitude => 51.524262, :longitude => -0.143772) # 1.52 mi and hence pass
+u1003 = User.create(:user_id => 1003, :first_name => "East Ilsley", :last_name => "", :latitude => 51.533576, :longitude => -1.289984) # 50.41 mi and hence fail
+
 london_users.each do |london_user| Londonuser.create(
     user_id: london_user['id'],
     first_name: london_user['first_name'],
