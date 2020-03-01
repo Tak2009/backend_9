@@ -22,7 +22,7 @@ all_users.each do |user| User.create(
 )
 end
 
-# dummy data for checking the distance calc function in frontend agisnt google map
+# dummy data for checking the distance calc function in frontend agisnt google maps
 # u1001 = User.create(:user_id => 1001, :first_name => "Huddersfield", :last_name => "Station", :latitude => 53.648557, :longitude => -1.784449) # 163.48 mi, same as google map result. this should not be included in the 50 mi group
 # u1002 = User.create(:user_id => 1002, :first_name => "Great Portland", :last_name => "Station", :latitude => 51.524262, :longitude => -0.143772) # 1.48 mi, same as google map result. this should be included in the 50 mi group
 # u1003 = User.create(:user_id => 1003, :first_name => "East Ilsley", :last_name => "", :latitude => 51.533576, :longitude => -1.289984) # 50.41 mi same as google map result. this should not be included in the 50 mi group.
