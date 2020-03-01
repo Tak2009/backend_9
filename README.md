@@ -2,7 +2,8 @@
  
 i. build your own API which calls the API at https://bpdts-test-app.herokuapp.com/, 
 
-ii. and returns 
+ii. and returns:
+
     a) people who are listed as either living in London,
     b) or whose current coordinates are within 50 miles of London. 
 
