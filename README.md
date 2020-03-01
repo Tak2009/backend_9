@@ -14,10 +14,11 @@ ii. and returns:
 
 This is an addtional project to demopnstrate my frontend skills to achive the same objectives. In this project, I built a backend-frontend application.
 For the backend, I used again Ruby on Rails. For the frontend, I used JavaScript.
-In this additional project, the frontend handles all the process to return ii - a) and ii -b). My backend just stores the data available
+In this additional project, the frontend handles all the process to return ii - a) and ii - b). My backend just stores the data available
 at https://bpdts-test-app.herokuapp.com/ and hence my API for this project is just a "pass-through" API calling the API at https://bpdts-test-app.herokuapp.com/.
 
 My frontend: https://github.com/Tak2009/frontend_9
+
 My backend: https://github.com/Tak2009/backend_9
 
 1 - How to use my bnackend API and frontend:
