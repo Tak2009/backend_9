@@ -22,9 +22,10 @@ My backend: https://github.com/Tak2009/backend_9
 
 1 - How to use my bnackend API and frontend:
 
-    a. $ rails s to launch the web server (https://github.com/Tak2009/backend_9) then,
-    b. once the server has launched, open http://localhost:3000/london_users and http://localhost:3000/users to check if the API is running properly
-    c. $ open index.html in my frontend (https://github.com/Tak2009/frontend_9)
+    a. $ rails s to launch the web server (https://github.com/Tak2009/backend_9),
+    b. once the server has launched, open http://localhost:3000/london_users and http://localhost:3000/users
+       to check if the API is running properly,
+    c. $ open index.html in my frontend (https://github.com/Tak2009/frontend_9).
 
 2 - You can find the logic for ii-a) and ii-b) in index.js. Once index.html has been opened, you will see the result for both ii - a) and b).
 You can choose 2 other options: Living in London and Living Within 50 mi of London. For example, if you would like to see only people living in London,
