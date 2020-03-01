@@ -28,7 +28,7 @@ My backend: https://github.com/Tak2009/backend_9
        to check if the API is running properly.
     c. $ open index.html in my frontend (https://github.com/Tak2009/frontend_9).
 
-2 - You can find the logic for ii-a) and ii-b) in index.js. Once index.html has been opened, you will see the results for both ii - a) and b) combined in one default list.
+2 - You can find the logic for ii-a) and ii-b) in index.js. Once index.html has been opened, you will see the results for both ii-a) and b) combined in one default list.
 You can then select from the drop-down menu 2 further options: those living in London and those living within 50 mi of London. In total, therefore, there are three options to select from. With this frontend, fetch requests happen only at the initial render.
 This means that re-rendering the data triggered by option changes is handled by the DOM manipulation.
 
